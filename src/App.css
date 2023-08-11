@@ -1,0 +1,29 @@
+.App {
+  text-align: center;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.allempcard {
+  transition: all;
+  background-color: rgb(253, 235, 214);
+  box-shadow: 1px 1px 5px 2px rgb(31, 28, 28);
+}
+
+.allempcard:hover {
+  transform: scale(1.01);
+}
+
+.form-control:focus {
+  box-shadow: 0px 0px 8px 3px rgb(245, 134, 100);
+}
+
+.btn-link {
+  color: darksalmon;
+}
+
+.btn-link.active {
+  color: aquamarine;
+}
